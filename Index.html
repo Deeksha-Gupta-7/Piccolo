@@ -1,245 +1,302 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Task</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext"
-        rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-        crossorigin="anonymous">
-    <style>
-	
-    .first
-    {
-        background-color: red;
-        margin: 0px;
-        padding: 0px;
-        font-size: 20px;
-        color: white;
-        border: none;
-    }
- 
-    .background
-    {
-        background-image:  url('Img/Background.jpeg');
-    }
-
-    .centered
-    {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-150%,-40%);
-    }
-    
-    .p4
-    {
-        color: red;
-    } 
-  
-    .p1
-    {
-        color: gray;
-    }
-  
-    .container
-    {
-        position: absolute;
-        right: 0;
-        margin: 20px;
-        max-width: 50%;
-        padding: 16px;
-        background-color:gray;
-        opacity: 0.8;
-        box-shadow:1px;
-    }
-
-   input[type=text],[type=tel],[type=email], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: none;
-  border-radius: 4px;
-  box-sizing: border-box;
-  text-decoration: underline;
-}
-
-input[type=submit] {
-  width:30%;
-  background-color:red;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border-radius: 50px;
- 
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: red;
-}
-  .sec2{
-    background-color: white;
-    color: black;
-  }
-  
-  .table{
-    background-color: white;
-    margin-left: 80px;
-    margin-top: 50px;
-    border-bottom: 6px solid #3D3C3A;
-    padding: 70px;
-  }
-  
-  .now{
-    background-color: white;
-    color: red;
-    float: center;
-    text-decoration: none;
-  }
-
-  footer{
-    background-color: black;
-    color: white;
-    padding: 20px;
-    padding-left: 100px;
-  }
-
-  a {
-    border-bottom: 1px solid white;
-    padding-bottom: 5px;
-    }
-</style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
+
 <body>
-    <!-- Just an image -->
-    <div class="first">
-        <nav class="navbar">
-  <a class="navbar-brand" href="#">
-    <img src="Img\logo1.png" width="200px" height="100px" alt="">
-  </a>
-  <p>info@piccloindia.com</p>
-  <p>+91 959 959 5740/5840, 011 6500 8040</p>
-</nav>
-    </div>
-    <!--header !-->
-    <div>
-        <!--<img src="C:\Users\Deeksha\Desktop\Webzent\Img\Background.jpeg" height="600px" width="100%">!-->
-        <div class="centered">
+    <div class="wrapper">
+        <!-- Just an image -->
+        <div class="first">
+            <nav class="navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="Img\logo1.png" width="200px" height="100px" alt="">
+                </a>
+                <div class="email-detail">
+                    <p><i class="fa fa-mail"></i>info@piccloindia.com</p>
+                    <p>+91 959 959 5740/5840, 011 6500 8040</p>
+                </div>
+            </nav>
+        </div>
+        <!--header !-->
+        <div class="background">
+            <img src="Img\Background.jpeg" height="600px" width="100%">
+            <div class="centered">
+                <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="banner-text col-md-7">
+                            <h1>Early Learning Centre !</h1>
+                            <div class="quote-main">
+                                <h2> "Play is work of the child"</h2>
+                                <p class="quote-by"> - Dr. Maria Montessori</p>
+                            </div>
+                            <p class="hightlight-text">Registeration Open</p>
+                        </div>
+                        <div class="form-banner col-md-5">
+                            <div class="form-container">
+                                <div class="form-head">
+                                    <h3>Get in touch with us</h3>
+                                </div>
+                                <form>
+                                    <div class="main-from">
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="Child's Full Name" aria-label="Username" aria-describedby="basic-addon1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text text" id="basic-addon1"><img src="Img\person.png" width="25px"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="Child's Age" aria-label="Username" aria-describedby="basic-addon2">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text" id="basic-addon2"><img src="Img\cal.png" width="25px"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <input type="email" class="form-control" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon3">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text" id="basic-addon3"><img src="Img\mail.png" width="25px"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" placeholder="Phone Number" aria-label="Username" aria-describedby="basic-addon4">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text" id="basic-addon4"><img src="Img\call.png" width="25px"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-button text-center mt-5 mb-2">
+                                            <button class="btn btn-danger rounded-pill submit-btn">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: red">
+            <div class="pt-4">
+                <div class="table">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h2>
+                                Piccolo Believes in</h2>
+                            <h1 style="color: red">
+                                MONTESSORI!</h1>
+                            <ul class="tick-list">
+                                <li>The development of social skills</li>
+                                <li>Encourages co-operative play</li>
+                                <li>Children naturally learn self-discipline</li>
+                                <li>Physical co- ordination</li>
+                                <li>Cognitive preparation</li>
+                                <li>Emotional growth</li>
+                                <li>Care of self</li>
+                                <li>Care of environment</li>
+                                <li>Independence</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="corner-border">
+                                <img src="Img\2girls.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="javascript:void(0);" class="now btn btn-light">Register Now</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <video width="100%" autoplay muted>
+                <source src="Img\video.mp4" type="video/mp4">
+                <source src="Img\video.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <h2 class="h2">Our Program</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="div1">
+                        <p>Preschool</p>
+                        <ul>
+                            <li>play group</li>
+                            <li>Pre - Nursery</li>
+                            <li>Nursery</li>
+                        </ul>
+                    </div>
+                    <div class="div1">
+                        <p>Parent & Child</p>
+                        <p>music,Montessori and much more..</p>
+                    </div>
+                    <div class="div1">
+                        <p>music,Montessori and much more..</p>
+                        <p>Child growth & Development Program</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <img src="Img/img6.jpg" class="img1"><br>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: red; padding: 50px 0;">
+            <div class="container">
+                <h2 style="text-align: center;">Our Facility</h2>
+                <div class="facility-box">
+                    <div class="facility-box-container">
+                        <div class="item">
+                            <div class="item-box">
+                                <div class="image">
+                                    <img src="Img/Security.png">
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">Sefety & Security</h2>
+                                    <ul class="facility-list">
+                                        <li>Live CCTV access to parents</li>
+                                        <li>Police verified</li>
+                                        <li>Fire sefety setup</li>
+                                        <li>Child size curved edge furniture</li>
+                                        <li>All staff trained periodically to give FirstAid</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item purple">
+                            <div class="item-box">
+                                <div class="image">
+                                    <img src="Img/team.png">
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">Our Team</h2>
+                                    <ul class="facility-list">
+                                        <li>Montessori trained Directresses</li>
+                                        <li>Eurythmic & Arts profeessional</li>
+                                        <li>Trained physical educator</li>
+                                        <li>Compassionate & trained supporting staff</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item blue">
+                            <div class="item-box">
+                                <div class="image">
+                                    <img src="Img/health.png">
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">Health & Hygeine</h2>
+                                    <ul class="facility-list">
+                                        <li>anti becterial flooring</li>
+                                        <li>Screening by Child Psychologist</li>
+                                        <li>Air purifiying plants</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item green">
+                            <div class="item-box">
+                                <div class="image">
+                                   <img src="Img/food.png">
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">Food</h2>
+                                    <ul class="facility-list">
+                                        <li>Fresh fruits</li>
+                                        <li>Regular water intervals</li>
+                                         <li>Monthly planned menu</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-box">
+                                <div class="image">
+                                    <img src="Img/Transport.png">
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">Transport</h2>
+                                    <ul class="facility-list">
+                                        <li>Police verified drivers</li>
+                                        <li>First Aid Kit & water available</li>
+                                        <li>Fire extinguisher available</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="Img\img3.jpg" class="img3">
+        </div>
+        <div>
             <h2 class="p4">
-                Early Learning Centre !</h2>
-            <h4>
-                "Play is work of the child"</h4>
-            <h5>
-                - Dr. Maria Montessori</h5>
-            <input type="button" name="" value="REGISTRATIONS OPEN" class="first">
-        </div>
-        <!--
-     <form class="container">
-       <label for="name"></label>
-       <input type="text" id="fname" name="Child's Full Name" placeholder="Child's Full Name">
-     
-       <div col-4>
-       <label for="Age"></label>
-       <input type="date" id="Age" name="Child's Age" placeholder="Child's Age">
-       </div>
-       <label for="Email"></label>
-       <input type="Email" name="" placeholder="Email">
-
-       <label for="Contact"></label>
-       <input type="tel" id="Phone" placeholder="Phone Number">
-
-  
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit">
-     </form>
-   !-->
-    </div>
-    <div class="table">
-        <div class="row">
-            <div class="col-md-4">
-                <h2>
-                    Piccolo Believes in</h2>
-                <h1 style="color: red">
-                    MONTESSORI!</h1>
-                <p class="p1">
-                    The development of social skills</p>
-                <p class="p1">
-                    Encourages co-operative play</p>
-                <p class="p1">
-                    Children naturally learn self-discipline
-                </p>
-                <p class="p1">
-                    Physical co- ordination</p>
-                <p class="p1">
-                    Cognitive preparation</p>
-                <br>
-            </div>
-            <div class="col-md-3">
-                <br>
-                <br>
-                <br>
-                <br>
-                <p class="p1">
-                    Emotional growth</p>
-                <p class="p1">
-                    Care of self</p>
-                <p class="p1">
-                    Care of environment</p>
-                <p class="p1">
-                    Independence</p>
-            </div>
-            <div class="col-md-3">
-                <img src="C:\Users\Deeksha\Desktop\Webzent\Img\2girls.jpg" style="float: center;
-                    height: 300px; width: 350px;">
+                <center>Testimonials</center>
+            </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <center>
+                        <img src="Img\red.png" class="quote"> <br>
+                        <img src="Img\img2.jpg" class="img2">
+                        <img src="Img\vline.png" height="120px">
+                    </center>
+                </div>
+                <div class="col-md-8">
+                    <br><br>
+                    <p class="p2">It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum<br> is that it has a more-or-less normal distribution
+                        of letters, as opposed to using 'Content here, content here', making it look like readable English.<img src="Img\reddownpng.png" class="quote"> </p>
+                    <p style="text-align: center;" class="p3">&nbsp;&nbsp;&nbsp;&nbsp;-saurabhi Saxena</p>
+                </div>
             </div>
         </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><a>Our</a> Contact</h4>
+                    A-267 Surajmali Vihar, Delhi-110092<br>
+                    +91 959 959 5740/5840 011 6500 8040<br>
+                    info@piccoloindia.com
+                </div>
+                <div class="col-md-4 ">
+                    <h4><a>Get</a>More Details</h4>
+                    <input type="text" name="" value="Child's Full Name" class="fbtn"><br>
+                    <input type="text" name="" value="Email Address" class=" fbtn"><br>
+                    <input type="text" name="" value="Phone" class=" fbtn">
+                    <input type="" name="" value="submit" class=" fbtn">
+                </div>
+                <div class="col-md-4">
+                    <h4><a>Follow</a>Us</h4><br>
+                    <img src=".\Img\Background.jpeg" height="70px" width="120px">
+                </div>
+            </div>
+        </footer>
     </div>
-    <input type="button" name="" value="REGISTATIONS OPEN" class="now">
-    </div>
-    <footer>
-  <div class="row">
-    <div class="col-md-4">
-      <h4><a>Our</a> Contact</h4>
-      A-267 Surajmali Vihar, Delhi-110092<br>
-      +91 959 959 5740/5840 011 6500 8040<br>
-      info@piccoloindia.com
-    </div>
-    
-    <div class="col-md-4">
-      <h4><a>Get</a>More Details</h4>
-      <input type="button" name="" value="Child's Full Name" class="now">
-      <input type="button" name="" value="Email Address" class="now">
-      <input type="button" name="" value="Phone" class="now">
-    </div>
-
-    <div class="col-md-4">
-      <h4><a>Follow</a>Us</h4><br>
-      <img src="C:\Users\Deeksha\Desktop\Webzent\Img\Background.jpeg" height="70px"width="120px">
-    </div>
-  </div>
-</footer>
-    <script src="https://kit.fontawesome.com/ee45d9231c.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"></script>
-    <link type="text/css" rel="stylesheet" href="./assests/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ee45d9231c.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
