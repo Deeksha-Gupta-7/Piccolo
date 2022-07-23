@@ -165,10 +165,10 @@ img{
 .div1 {
     margin: 10px;
     background-color: #D3D3D3;
-    height: 25%;
+    height: auto%;
     text-align: center;
     padding: 5px;
-
+    margin-top: 5px;
 }
 
 .navbar-brand {
@@ -427,4 +427,25 @@ img{
 
 .facility-box .facility-box-container .item.green .item-box .image::after {
     border-color: transparent transparent transparent #AAFF00;
+}
+
+.submit-btn1{
+    background-color: black!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 200px;
+    color: white
+}
+
+.last{
+    text-align: center;
+}
+
+.lcontact{
+    content: '';
+    letter-spacing: 1px;
+    margin-top: 2px;
+    
 }
